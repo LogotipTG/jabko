@@ -151,8 +151,8 @@ const list = [
 const Header = () => {
   return (
     <>
-      <div className='bg-[#0f0f0f] h-[60px] text-[#888888] cursor-default'>
-        <div className='w-[1400px] h-full flex items-center mx-auto space-x-1'>
+      <div className='bg-[#0f0f0f] h-[60px] text-[#888888] cursor-default select-none'>
+        <div className='w-[1400px] h-full flex items-center mx-auto space-x-1 justify-center'>
           <img className='h-[30px] hover:scale-90 duration-200 mr-3' src="https://jabko.ua/image/catalog/123/logow.png" alt="Jabko.ua" />
           
           {/* TODO component */}
@@ -173,7 +173,7 @@ const Header = () => {
             )
           })}
 
-          <div className=' border-l-[1px] h-full flex items-center'>
+          <div className=' border-l-[1px] border-[#383838] h-full flex items-center'>
             <div className='px-[20px] h-full flex items-center font-semibold relative group hover:bg-[#000000] duration-200'>
               <span className='group-hover:text-white duration-200'>Apple Б/У</span>
                 <ul className='w-[200px] absolute px-[20px] py-[10px] left-0 top-[60px] scale-0 group-hover:scale-100 bg-[#000]'>
